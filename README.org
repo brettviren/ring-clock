@@ -1,0 +1,19 @@
+#+TITLE: Ring Clock 
+
+* Hardware
+
+- boards: adafruit trinket + rtc (final) or uno (dev)
+- potentiometer 
+- LED + button switch combo
+- 60 + 24 + 12 ring LEDs from adafruit
+
+* Software
+
+This repo holds the code.  It's developed using platformino but the
+usual Arduino IDE should work too.  It requires AdaFruit's NeoPixel
+library.
+
+#+BEGIN_EXAMPLE
+  $ platformio run -e uno
+  $ platformio run -e uno -t upload
+#+END_EXAMPLE
